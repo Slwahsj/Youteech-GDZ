@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling to header */
+header {
+    background-color: #3498DB;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Apply styles to main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the Telegram channel buttons */
+.telegram-links {
+    text-align: center;
+}
+
+.channel-button {
+    margin: 20px;
+}
+
+.channel-button a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.channel-button img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Apply styles to footer */
+footer {
+    background-color: #333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
