@@ -1,126 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTeech</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
     <header>
-        <h1>Добро пожаловать в YouTeech</h1>
+      <a href="/" class="logo">
+        <img src="logo.png" alt="YouTeech Logo" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <img
+              src="telegram_icon.png"
+              alt="Telegram Icon"
+              class="telegram-icon"
+            />
+            <a href="https://t.me/+6zYhkH_qUi9mY2Qy" target="_blank"
+              >Наш Telegram канал</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="login-btn">Войти</button>
     </header>
-    
     <main>
-        <section class="telegram-links">
-            <h2>Telegram Каналы</h2>
-			<br>
-			<div class="channel-button">
-                <a href="https://t.me/+6zYhkH_qUi9mY2Qy" target="_blank">
-                    <img src="youteech.jpg" alt="YouTeech">
-                    <p><strong>YouTeech - канал проекта</strong></p>
-                </a>
-            </div>
-			
-			<h3><br>ДОПОЛНИТЕЛЬНО</h3>
-			
-			<div class="channel-button">
-                <a href="free.html" target="_blank">
-                    <img src="free.jpg" alt="Подарки">
-                    <p>ПОДАРКИ</p>
-                </a>
-            </div>
-			
-			<h3><br>Бесплатный Сентябрь:</h3>
-			
-            <div class="channel-button">
-                <a href="https://t.me/+f2ur0b981FhhMzhi" target="_blank">
-                    <img src="rus.jpg" alt="Русский Сентябрь">
-                    <p>Русский Сентябрь</p>
-                </a>
-            </div>
-            
-            <div class="channel-button">
-                <a href="https://t.me/+xQJHU8G6_FRlYzYy" target="_blank">
-                    <img src="prof.jpg" alt="Профиль Сентябрь">
-                    <p>Профиль Сентябрь</p>
-                </a>
-            </div>
-            
-			<div class="channel-button">
-                <a href="https://t.me/+mhULr45MNYo2NTAy" target="_blank">
-                    <img src="baza.jpg" alt="База Сентябрь">
-                    <p>База Сентябрь</p>
-                </a>
-            </div>
-			
-            <div class="channel-button">
-                <a href="https://t.me/+Au3VcylXaitmYzky" target="_blank">
-                    <img src="obsch.jpg" alt="Общество Сентябрь">
-                    <p>Общество Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+kW6N0UI0zkw2NzYy" target="_blank">
-                    <img src="inf.jpg" alt="Информатика Сентябрь">
-                    <p>Информатика Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+WZXiuvpFMutkZDEy" target="_blank">
-                    <img src="him.jpg" alt="Химия Сентябрь">
-                    <p>Химия Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+j1raQAm0T6E5ZGMy" target="_blank">
-                    <img src="bio.jpg" alt="Биология Сентябрь">
-                    <p>Биология Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+krB2i_OUlCtlYWIy" target="_blank">
-                    <img src="eng.jpg" alt="Английский Сентябрь">
-                    <p>Английский Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+woD9uM7RRn5kYmI6" target="_blank">
-                    <img src="lit.jpg" alt="Литература Сентябрь">
-                    <p>Литература Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+1T8bup7EbYpiZjAy" target="_blank">
-                    <img src="his.jpg" alt="История Сентябрь">
-                    <p>История Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+JYsnIw4rGLNmNDg6" target="_blank">
-                    <img src="fiz.jpg" alt="Физика Сентябрь">
-                    <p>Физика Сентябрь</p>
-                </a>
-            </div>
-			
-			<div class="channel-button">
-                <a href="https://t.me/+8ngnhWtYEh80Yjdi" target="_blank">
-                    <img src="geo.jpg" alt="География Сентябрь">
-                    <p>География Сентябрь</p>
-                </a>
-            </div>
-        </section>
+      <h1>Направления подготовки</h1>
+      <div class="courses">
+        <!-- Первый блок -->
+        <div class="course">
+          <img src="ege_2024.png" alt="ЕГЭ 2024" />
+          <h2>ЕГЭ 2024 (прошлогодние)</h2>
+          <a href="year23-24.html"><button>Выбрать предмет</button></a>
+        </div>
+        <!-- Второй блок -->
+        <div class="course">
+          <img src="ege_2025.png" alt="ЕГЭ 2025" />
+          <h2>ЕГЭ 2025</h2>
+          <a href="year24-25.html"><button>Выбрать предмет</button></a>
+        </div>
+        <!-- Третий блок -->
+        <div class="course">
+          <img src="free.png" alt="Бесплатно" />
+          <h2>БЕСПЛАТНО (другие сливы)</h2>
+          <a href="free.html"><button>Выбрать предмет</button></a>
+        </div>
+      </div>
     </main>
-    
     <footer>
-        <p>&copy; 2023 YouTeech. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="left">
+          <div class="brand">
+            <img src="logo_icon.png" alt="Logo Icon" class="footer-icon" />
+            YouTeech
+          </div>
+          <p>Общеобразовательный проект для подготовки к ЕГЭ и ОГЭ</p>
+        </div>
+        <div class="contact">
+          <h3>Связаться с нами</h3>
+          <a
+            href="https://t.me/+6zYhkH_qUi9mY2Qy"
+            class="footer-link"
+            target="_blank"
+            >Наш Телеграм канал</a
+          >
+          <a
+            href="https://t.me/owner_youteech1"
+            class="footer-link"
+            target="_blank"
+            >Менеджер</a
+          >
+        </div>
+      </div>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
